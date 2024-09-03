@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Formulario.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Cadastro Aéreo</legend>
+
+            <br>
+
+            <div>
+                <label for="nome">Nome:</label><br>
+                <input type="text" name="nome" id="nome" placeholder="Nome">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="sobrenome">Sobrenome:</label><br>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome"> <br>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="email">E-mail:</label><br>
+            <input type="email" name="E-mail" id="email" placeholder=" E-mail">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="senha">Senha:</label><br>
+                <input type="password" name="senha" id="senha" placeholder="Senha">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="senha">Digite sua senha novamente:</label><br>
+                <input type="password" name="senha" id="senha" placeholder="Senha">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="datansc">Data de Nascimento:</label><br>
+                <input type="date" name="datansc" id="datansc">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="idade">Apresente sua idade:</label><br>
+                <input type="number" name="idade" id="idade" placeholder="idade">
+            </div>
+
+            <br>
+           
+            <div class="line">
+
+            <ul>
+                <p>Comida favorita:</p>
+                <li><input type="checkbox" name="comida[]"  value="Pizza">Pizza</li>
+                <li><input type="checkbox" name="comida[]"  value="Sushi">Sushi</li>
+                <li><input type="checkbox" name="comida[]"  value="Hambúrguer">Hambúrguer</li>
+                <li><input type="checkbox" name="comida[]"  value="Cachorro quente">Cachorro quente</li>
+                <li><input type="checkbox" name="comida[]"  value="Xis">Xis</li>
+            </ul>
+
+        </div>
+                
+            
+            <ul>
+                <label for="sim,nao">Aceita os termos e Cadastro:</label>
+                <li><input type="radio" name="SimeNão" id="" value="Sim">Sim</li>
+                <li><input type="radio" name="SimeNão" id="" value="Não">Não</li>
+            </ul>
+            <input class="bottom1" type="submit" value="cadrastar">
+        </fieldset>
+    </form>
+
+</body>
+</html>
